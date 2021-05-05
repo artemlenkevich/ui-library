@@ -1,0 +1,27 @@
+.navbar {
+    width: 100%;
+    max-width: 160px;
+    padding: 16px 24px;
+    background-color: #262b40;
+}
+
+.navlink {
+    display: block;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+
+    background-color: #262b40;
+    color: #eaedf2;
+    border-radius: 5px;
+    cursor: pointer;
+
+    text-decoration: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.navlink:hover {
+    background-color: #45495a;
+    transition: background-color 0.2s ease-in;
+}
