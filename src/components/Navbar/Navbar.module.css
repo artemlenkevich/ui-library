@@ -25,3 +25,7 @@
     background-color: #45495a;
     transition: background-color 0.2s ease-in;
 }
+
+.navlinkActive {
+    background-color: #45495a;
+}
