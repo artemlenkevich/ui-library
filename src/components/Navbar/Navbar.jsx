@@ -7,6 +7,7 @@ export const Navbar = () => {
             <NavLink className={styles.navlink} activeClassName={styles.navlinkActive} to='/swipe'>Swipe</NavLink>
             <NavLink className={styles.navlink} activeClassName={styles.navlinkActive} to='/forms'>Forms</NavLink>
             <NavLink className={styles.navlink} activeClassName={styles.navlinkActive} to='/buttons'>Buttons</NavLink>
+            <NavLink className={styles.navlink} activeClassName={styles.navlinkActive} to='/sliders'>Sliders</NavLink>
         </nav>
     )
 }

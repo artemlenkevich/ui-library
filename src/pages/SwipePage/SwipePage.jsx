@@ -1,4 +1,4 @@
-import { SwipeBoard } from "../components/Swipe/Swipe";
+import { SwipeBoard } from "../../components/SwipeBoard/SwipeBoard";
 
 export const SwipePage = () => {
     return (

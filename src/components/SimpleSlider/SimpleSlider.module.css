@@ -1,0 +1,29 @@
+.simpleSlider {
+    position: relative;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.slidesContainer {
+    display: flex;
+    transition: transform .3s ease-out;
+}
+
+.slide {
+    margin-right: 10px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.controls {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: calc(50% - 25px);
+    cursor: pointer;
+}
+
+.simpleSlider .controls:last-child {
+    right: 0;
+}

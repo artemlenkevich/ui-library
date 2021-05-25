@@ -1,4 +1,4 @@
-import styles from './Swipe.module.css';
+import styles from './SwipeBoard.module.css';
 
 export const SwipeBoard = () => {
     return (
