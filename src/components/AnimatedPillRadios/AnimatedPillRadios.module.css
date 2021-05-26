@@ -25,6 +25,10 @@
     color: rgb(0, 0, 0);
 }
 
+.radioLabelActive {
+    color: #fff;
+}
+
 .radioInput {
     visibility: hidden;
     position: absolute;
