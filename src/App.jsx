@@ -1,6 +1,7 @@
 import { Route, Switch } from 'react-router-dom';
 import styles from './App.module.css';
 import { Navbar } from './components/Navbar/Navbar';
+import { ButtonsPage } from './pages/ButtonsPage/ButtonsPage';
 import { SlidersPage } from './pages/SlidersPage/SlidersPage';
 import { SwipePage } from './pages/SwipePage/SwipePage';
 
@@ -12,6 +13,7 @@ export const App = () => {
                 <Switch>
                     <Route path='/swipe' component={SwipePage} />
                     <Route path='/sliders' component={SlidersPage} />
+                    <Route path='/buttons' component={ButtonsPage} />
                 </Switch>
             </div>
         </div>

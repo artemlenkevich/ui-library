@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.switcher {
+    padding: 5px;
+    width: fit-content;
+    border-radius: 8%/50%;
+    border: 1px solid rgb(116, 112, 112);
+}
+
+.togglesContainer {
+    position: relative;
+}
+
+.radioLabel {
+    display: inline-block;
+    position: relative;
+    padding: 3px 20px 0px;
+    z-index: 50;
+
+    cursor: pointer;
+
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    color: rgb(0, 0, 0);
+}
+
+.radioInput {
+    visibility: hidden;
+    position: absolute;
+    margin: 0
+}
+
+.highlight {
+    width: 150px;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #373e96;
+    border-radius: 15%/50%;
+    transition: all .2s ease-in-out;
+}
