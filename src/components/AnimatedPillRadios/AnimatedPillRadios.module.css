@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .switcher {
-    padding: 5px;
+    padding: 8px;
     width: fit-content;
     border-radius: 8%/50%;
-    border: 1px solid rgb(116, 112, 112);
+    box-shadow: rgb(221 221 221) 0px 0px 0px 2px inset;
 }
 
 .togglesContainer {
@@ -36,13 +36,7 @@
 }
 
 .highlight {
-    width: 150px;
-    height: 100%;
-
     position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #373e96;
     border-radius: 15%/50%;
     transition: all .2s ease-in-out;
 }
