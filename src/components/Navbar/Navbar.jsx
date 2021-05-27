@@ -6,6 +6,7 @@ const LinksProperties = [
     {to: '/forms', name: 'Forms'},
     {to: '/buttons', name: 'Buttons'},
     {to: '/sliders', name: 'Sliders'},
+    {to: '/accordion', name: 'Accordion'}
 ]
 
 export const Navbar = () => {

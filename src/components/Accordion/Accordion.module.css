@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap');
+
+.Accordion {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, .1)
+}
+
+.title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 18px;
+}
+
+.tabsContainer {
+    margin-top: 15px;
+}
+
+.tabWrapper {
+    margin-bottom: 10px;
+}
+
+.tab {
+    padding: 20px 20px 20px 70px;
+    background-color: #FFF6EE;
+
+    border-radius: 5px;
+}
+
+.tabHead {
+    position: relative;
+    cursor: pointer;
+}
+
+.tabControl {
+    position: absolute;
+    left: -35px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+    transition: transform .2s linear;
+}
+
+.tabControlOpen {
+    transform: rotate(0.25turn);
+}
+
+.tabHeader {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+}
+
+.tabBody {
+    margin-top: 20px;
+    max-height: 100px;
+    overflow: hidden;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    transition: all .5s ease-out;
+}
+
+[data-hidden="true"] .tabBody { 
+    margin-top: 0;
+    max-height: 0;
+    transition: all .5s ease-in;
+}
+
+[data-hidden="false"] .tabControl {
+    transform: rotate(0.125turn);
+}
+
+
